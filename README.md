@@ -1,5 +1,11 @@
 # kooky
 
+## Fork note
+
+1. install go
+2. `go install cmd/kooky/kooky.go`
+3. `kooky --help`
+
 [![PkgGoDev](https://pkg.go.dev/badge/github.com/zellyn/kooky)](https://pkg.go.dev/github.com/zellyn/kooky)
 [![Go Report Card](https://goreportcard.com/badge/zellyn/kooky)](https://goreportcard.com/report/zellyn/kooky)
 ![Lines of code](https://img.shields.io/tokei/lines/github/zellyn/kooky)
