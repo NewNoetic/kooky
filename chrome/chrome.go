@@ -3,8 +3,8 @@ package chrome
 import (
 	"runtime"
 
-	"github.com/zellyn/kooky"
-	"github.com/zellyn/kooky/internal/chrome"
+	"github.com/newnoetic/kooky"
+	"github.com/newnoetic/kooky/internal/chrome"
 )
 
 func ReadCookies(filename string, filters ...kooky.Filter) ([]*kooky.Cookie, error) {

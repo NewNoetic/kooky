@@ -6,7 +6,7 @@
 2. `go install cmd/kooky/kooky.go`
 3. `kooky --help`
 
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/zellyn/kooky)](https://pkg.go.dev/github.com/zellyn/kooky)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/newnoetic/kooky)](https://pkg.go.dev/github.com/newnoetic/kooky)
 [![Go Report Card](https://goreportcard.com/badge/zellyn/kooky)](https://goreportcard.com/report/zellyn/kooky)
 ![Lines of code](https://img.shields.io/tokei/lines/github/zellyn/kooky)
 [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
@@ -54,8 +54,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/zellyn/kooky"
-	_ "github.com/zellyn/kooky/allbrowsers" // register cookie store finders!
+	"github.com/newnoetic/kooky"
+	_ "github.com/newnoetic/kooky/allbrowsers" // register cookie store finders!
 )
 
 func main() {
@@ -79,7 +79,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/zellyn/kooky/chrome"
+	"github.com/newnoetic/kooky/chrome"
 )
 
 func main() {
@@ -105,7 +105,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/zellyn/kooky/safari"
+	"github.com/newnoetic/kooky/safari"
 )
 
 func main() {
