@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zellyn/kooky"
-	"github.com/zellyn/kooky/internal/testutils"
+	"github.com/newnoetic/kooky"
+	"github.com/newnoetic/kooky/internal/testutils"
 )
 
 // d18f6247db68045dfbab126d814baf2cf1512141391

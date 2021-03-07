@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/zellyn/kooky"
-	"github.com/zellyn/kooky/internal/utils"
+	"github.com/newnoetic/kooky"
+	"github.com/newnoetic/kooky/internal/utils"
 
 	"github.com/bobesa/go-domain-util/domainutil"
 )

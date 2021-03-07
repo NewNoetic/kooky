@@ -13,8 +13,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/zellyn/kooky"
-	"github.com/zellyn/kooky/internal"
+	"github.com/newnoetic/kooky"
+	"github.com/newnoetic/kooky/internal"
 )
 
 type fileHeader struct {
